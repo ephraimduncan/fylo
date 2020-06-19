@@ -1,0 +1,433 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.google.com/specimen/Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h4 {
+  font-family: Raleway, sans-serif;
+}
+/* Container */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* Nav Bar */
+nav {
+  margin: 50px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  margin: 20px;
+}
+
+.nav-list li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  color: rgb(114, 114, 236);
+}
+/* Section 1 */
+
+section.intro {
+  margin-bottom: 50px;
+}
+
+.intro .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro .illustration img {
+  width: 90%;
+  margin: 10px;
+}
+
+.info h1 {
+  font-size: 2.4rem;
+  margin: 20px 0;
+}
+
+.info p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.info .get-started {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.get-started input {
+  width: 50%;
+  padding: 13px;
+  font-size: 0.7rem;
+  margin-right: 15px;
+}
+
+.get-started button {
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 15px;
+  width: 35%;
+  background-color: rgb(48, 101, 248);
+  border: none;
+  border-radius: 3px;
+}
+
+/* Desktop Curve */
+.bg-curve {
+  height: 110px;
+  background-image: url('../../images/bg-curve-desktop.svg');
+}
+
+/* Second Section */
+
+.middle {
+  background: hsl(260, 75%, 98%);
+  padding: 20px;
+}
+
+.middle .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle .illustration img {
+  width: 70%;
+  margin-left: 80px;
+}
+.middle h1 {
+  font-size: 2.4rem;
+  margin: 20px 0;
+}
+
+.middle p {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.middle button {
+  color: rgb(60, 159, 143);
+  padding: 3px 0;
+  border: transparent;
+  border-bottom: 1px solid rgb(60, 159, 143);
+  background: none;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.middle button p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.testimonial {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 50px 0;
+  width: 70%;
+  padding: 15px 25px;
+  background: white;
+  box-shadow: 2px 2px 15px 5px hsl(0, 0%, 75%);
+}
+
+.testimonial img {
+  width: 10%;
+}
+
+.testimonial p {
+  margin: 0;
+}
+
+.testimonial .avatar {
+  display: flex;
+  margin: 5px 0;
+  align-items: center;
+}
+
+.avatar img {
+  margin: 5px 10px 5px 0;
+  width: 15%;
+  border: transparent;
+  border-radius: 100%;
+}
+
+/* Section 3 */
+
+.end {
+  padding: 100px 0;
+  color: white;
+  background: hsl(238, 22%, 44%);
+}
+
+.end .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.end h2 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+.end p {
+  font-size: 1.1rem;
+}
+.end .early-access {
+  width: 40%;
+}
+
+.end .newsletters {
+  align-self: left;
+  width: 30%;
+}
+
+.newsletters input {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  padding: 15px;
+  border: transparent;
+  border-radius: 4px;
+}
+
+.newsletters button {
+  background: hsl(224, 93%, 58%);
+  padding: 12px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.footer {
+  padding: 50px 0;
+  background: rgb(7, 4, 57);
+  color: white;
+}
+
+.footer .logo {
+  display: block;
+  margin: 10px 0;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info .contact {
+  flex: 2;
+}
+.contact ul {
+  margin: 10px 0;
+}
+.contact li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact img {
+  padding: 0 10px;
+}
+.contact-info .links {
+  flex: 1;
+}
+.links li,
+.terms li {
+  margin: 20px 0;
+}
+.contact-info .terms {
+  flex: 1;
+}
+.contact-info .social {
+  flex: 1;
+  margin: 20px 0;
+}
+
+.social i {
+  border: 1px solid white;
+  border-radius: 100%;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.social .fb {
+  padding: 10px 14px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(7, 4, 57);
+  padding: 20px;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 85%;
+    margin: auto;
+  }
+  nav .container {
+    align-items: center;
+  }
+  nav img {
+    width: 100px;
+  }
+
+  .nav-list li {
+    font-size: 0.8rem;
+    padding-left: 16px;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .intro .container {
+    flex-direction: column-reverse;
+  }
+
+  .intro .illustration img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .intro .info {
+    text-align: center;
+  }
+
+  .info h1 {
+    font-size: 2rem;
+  }
+
+  .get-started {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get-started input,
+  .get-started button {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .bg-curve {
+    background: url('../images/bg-curve-mobile.svg');
+    height: 40px;
+  }
+
+  .middle .container {
+    flex-direction: column-reverse;
+  }
+
+  .middle .illustration img {
+    margin: 0;
+    width: 100%;
+  }
+  .middle .info {
+    text-align: center;
+  }
+
+  .middle p {
+    text-align: justify;
+  }
+
+  .middle button {
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  .middle .testimonial {
+    width: 100%;
+    text-align: left;
+  }
+
+  .end {
+    padding: 20px 0 70px 0;
+  }
+
+  .end .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .end .early-access,
+  .end .newsletters {
+    width: 100%;
+    text-align: center;
+  }
+
+  .end h2 {
+    font-size: 1.5rem;
+  }
+
+  .end p {
+    margin: 20px 0;
+    font-size: 1rem;
+  }
+
+  .end input {
+    width: 100%;
+  }
+
+  .end button {
+    width: 100%;
+  }
+
+  .footer .contact-info {
+    flex-direction: column;
+  }
+
+  .contact li {
+    margin: 20px 0;
+  }
+
+  .social {
+    text-align: center;
+  }
+}
